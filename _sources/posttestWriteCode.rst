@@ -103,10 +103,10 @@ Click on the |start| button below when you are ready to try to finish writing th
 
           def testOne(self):
               elevList = [100, 150, 105, 95, 95, 90, 50, 75, 75, 70, 80, 90, 100]
-              self.assertEqual(isLevelTrailSegment(elevList,7,9),True,"The trail from marker 7 to 9 should be level")
-              self.assertEqual(isLevelTrailSegment(elevList,7,10),True,"The trail from marker 7 to 10 should be level")
-              self.assertEqual(isLevelTrailSegment(elevList,2,12),False,"The trail from marker 2 to 12 should not be level")
-              self.assertEqual(isLevelTrailSegment(elevList,7,11),False,"The trail from marker 7 to 11 should not be level")
+              self.assertEqual(isLevelTrailSegment(elevList, 7, 9), True, "The trail from marker 7 to 9 should be level")
+              self.assertEqual(isLevelTrailSegment(elevList, 7, 10), True, "The trail from marker 7 to 10 should be level")
+              self.assertEqual(isLevelTrailSegment(elevList, 2, 12), False, "The trail from marker 2 to 12 should not be level")
+              self.assertEqual(isLevelTrailSegment(elevList, 7, 11), False, "The trail from marker 7 to 11 should not be level")
 		   
       myTests().main()
    
