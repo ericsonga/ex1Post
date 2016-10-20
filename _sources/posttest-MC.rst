@@ -35,7 +35,7 @@ Please answer the following multiple-choice questions to the best of your abilit
 Click on the |start| button below when you are ready to answer the questions.  Click on the |finish| button when you have answered all the questions that you can answer.   
 
 .. timed:: posttest_mc_timed
-   :timelimit: 13
+   :timelimit: 15
    :noresult:
    :nofeedback:
        
